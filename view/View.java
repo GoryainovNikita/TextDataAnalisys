@@ -6,7 +6,7 @@ public class View {
 
     private static final Scanner scanner = new Scanner(System.in);
 
-    public void greeting() {
+    public void greeting() {//all text better be placed outside
         System.out.println("Добро пожаловать в наше приложение \"Мегаанализатор текстовых данных\"");
         System.out.println("Пожалуйста, введите пути к файлам, которые хотите проанализировать:\n" +
                 "Каждый новый путь вводите с новой строки\n" +
