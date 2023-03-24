@@ -5,7 +5,7 @@ import view.View;
 
 public class Controller {
 
-    private static final Model model = new Model();
+    private static final Model model = new Model();//better be done in constructor
     private static final View view = new View();
 
     public void execute() {

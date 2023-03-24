@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class Model {
-    private static final List<Counter> listCounter = new ArrayList<>();
+    private static final List<Counter> listCounter = new ArrayList<>();//can be replaced with List.of() and insert elements
 
 
 
